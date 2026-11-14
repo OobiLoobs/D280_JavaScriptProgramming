@@ -9,7 +9,7 @@
 
   @if (selectedCountry()){
     <div class="column">
-      <app-country-info-component/>
+      <app-country-info-component [countryResponse]="selectedCountry()"/>
     </div>
   }
 

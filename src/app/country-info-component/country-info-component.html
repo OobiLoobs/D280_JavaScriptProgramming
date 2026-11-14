@@ -3,6 +3,11 @@
         <h3>NAME OF COUNTRY</h3>
     </header>
     <ul>
-        
+      <li class="infoItem">{{ country()?.name }}</li>
+      <li class="infoItem">{{ country()?.capitalCity }}</li>
+      <li class="infoItem">{{ country()?.region?.value }}</li>
+      <li class="infoItem">{{ country()?.incomeLevel?.value }}</li>
+      <li class="infoItem">{{ country()?.longitude }}</li>
+      <li class="infoItem">{{ country()?.latitude }}</li>
     </ul>
 </section>
