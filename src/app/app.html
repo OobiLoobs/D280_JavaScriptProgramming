@@ -7,7 +7,10 @@
     <app-map-component (click)="onClick($event)"/>
   </div>
 
-  <div class="column">
-    <app-country-info-component/>
-  </div>
+  @if (selectedCountry()){
+    <div class="column">
+      <app-country-info-component/>
+    </div>
+  }
+
 </div>
