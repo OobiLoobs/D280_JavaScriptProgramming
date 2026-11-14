@@ -1,11 +1,9 @@
 
-
 .grid-container {
   display: grid;
   grid-template-columns: 3fr 2fr;
-  gap: 24px;
+  gap: 40px;
 }
-
 
 
 

@@ -1,13 +1,29 @@
 <section id="info-container">
-    <header>
-        <h3>NAME OF COUNTRY</h3>
-    </header>
-    <ul>
-      <li class="infoItem">{{ country()?.name }}</li>
-      <li class="infoItem">{{ country()?.capitalCity }}</li>
-      <li class="infoItem">{{ country()?.region?.value }}</li>
-      <li class="infoItem">{{ country()?.incomeLevel?.value }}</li>
-      <li class="infoItem">{{ country()?.longitude }}</li>
-      <li class="infoItem">{{ country()?.latitude }}</li>
-    </ul>
+  <header class="info-header">
+    <h2>{{ country()?.name }}</h2>
+    <span class="subtext">COUNTRY DETAILS</span>
+  </header>
+
+  <ul class="info-list">
+    <li class="info-item">
+      <span class="info-label">Capital City</span>
+      <span class="info-value">{{ country()?.capitalCity }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Region</span>
+      <span class="info-value">{{ country()?.region?.value }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Income Level</span>
+      <span class="info-value">{{ country()?.incomeLevel?.value }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Longitude</span>
+      <span class="info-value">{{ country()?.longitude }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Latitude</span>
+      <span class="info-value">{{ country()?.latitude }}</span>
+    </li>
+  </ul>
 </section>
