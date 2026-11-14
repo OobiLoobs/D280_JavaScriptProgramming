@@ -1,16 +1,1 @@
-<header>
-  <h1 id="title">World Map - D280</h1>
-</header>
-
-<div class="grid-container">
-  <div class="column">
-    <app-map-component (click)="onClick($event)"/>
-  </div>
-
-  @if (selectedCountry()){
-    <div class="column">
-      <app-country-info-component [countryResponse]="selectedCountry()"/>
-    </div>
-  }
-
-</div>
+<router-outlet/>
