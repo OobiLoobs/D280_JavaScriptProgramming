@@ -1,0 +1,13 @@
+
+:root {
+  --mainTextColor: #FAF7F0;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #33351F, #67603B);}
+
+h1, h3, li {
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  color: var(--mainTextColor);
+}

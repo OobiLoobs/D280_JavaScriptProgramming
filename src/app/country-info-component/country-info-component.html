@@ -1,0 +1,29 @@
+<section id="info-container">
+  <header class="info-header">
+    <h2>{{ country()?.name }}</h2>
+    <span class="subtext">COUNTRY DETAILS</span>
+  </header>
+
+  <ul class="info-list">
+    <li class="info-item">
+      <span class="info-label">Capital City</span>
+      <span class="info-value">{{ country()?.capitalCity }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Region</span>
+      <span class="info-value">{{ country()?.region?.value }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Income Level</span>
+      <span class="info-value">{{ country()?.incomeLevel?.value }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Longitude</span>
+      <span class="info-value">{{ country()?.longitude }}</span>
+    </li>
+    <li class="info-item">
+      <span class="info-label">Latitude</span>
+      <span class="info-value">{{ country()?.latitude }}</span>
+    </li>
+  </ul>
+</section>
