@@ -1,6 +1,4 @@
 
-Student ID : 013055904
-
 Angular CLI       : 22.2.7
 Angular           : 22.2.6
 Node.js           : 24.22.1
